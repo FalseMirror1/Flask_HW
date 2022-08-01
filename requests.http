@@ -1,0 +1,22 @@
+
+# создание объявления
+POST http://127.0.0.1:5000/adv/
+Content-Type: application/json
+
+{
+  "title": "Фрукты",
+  "description": "Не нужны эти фрукты...",
+  "user": 3
+}
+
+
+
+# получение объявления по ID
+GET http://127.0.0.1:5000/adv/5
+Content-Type: application/json
+
+
+
+# удаление
+DELETE http://127.0.0.1:5000/adv/5
+Content-Type: application/json
